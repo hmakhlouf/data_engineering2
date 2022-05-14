@@ -1,6 +1,6 @@
-## Start Hadoop
+# Start Hadoop
 
-# hdfs format
+hdfs format
 
 ```
 hadoop namenode -format
@@ -8,7 +8,7 @@ hadoop namenode -format
 ```
 
 
-# Start hadoop cluster
+ Start hadoop cluster
 
 ```
 start-all.sh
@@ -23,7 +23,7 @@ ensure jps listing DataNode, NameNode, SecondaryNameNode, ResourceManager runnin
 
 ## hive
 
-# Initialize the metadata database
+Initialize the metadata database
 
 ```
 cd /usr/local/Cellar/hive/3.1.2_3/libexec/bin
@@ -31,7 +31,7 @@ schematool -initSchema -dbType mysql
 
 ```
 
-# Start hive 
+Start hive 
 
 ```
 hive
