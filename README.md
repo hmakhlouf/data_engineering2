@@ -77,7 +77,12 @@ ensure jps listing DataNode, NameNode, SecondaryNameNode, ResourceManager runnin
 Initialize the metadata database
 
 ```
+
 cd /usr/local/Cellar/hive/3.1.2_3/libexec/bin
+
+```
+```
+
 schematool -initSchema -dbType mysql
 
 ```
