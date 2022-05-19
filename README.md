@@ -7,14 +7,22 @@
 hadoop namenode -format
 
 ```
+```
+source $HOME/.bashrc
 
+```
 
 # Start hadoop cluster
 
 ```
 start-all.sh
 
+```
+
+```
+
 jps 
+
 ```
 
 ensure jps listing DataNode, NameNode, SecondaryNameNode, ResourceManager running..
