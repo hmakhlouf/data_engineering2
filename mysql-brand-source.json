@@ -1,0 +1,18 @@
+{
+   "name": "mysql-brand-source",
+   "config": {
+     "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+     "key.converter": "io.confluent.connect.avro.AvroConverter",
+     "key.converter.schema.registry.url": "http://localhost:8081",
+     "value.converter": "io.confluent.connect.avro.AvroConverter",
+     "value.converter.schema.registry.url": "http://localhost:8081",
+     "connection.url": "jdbc:mysql://localhost:3306/ecommerce?user=team&password=team1234",
+     "_comment": "Which table(s) to include",
+     "table.whitelist": "brands",
+     "mode": "timestamp",
+      "timestamp.column.name": "update_ts",
+     "validate.non.null": "false",
+     "_comment": "The Kafka topic will be made up of this prefix, plus the table name  ",
+     "topic.prefix": "db_"
+   }
+ }
