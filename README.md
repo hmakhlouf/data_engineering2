@@ -71,9 +71,7 @@ open command prompt Run Worker 2 copy the master url and paste in below command
 ```
 spark-class org.apache.spark.deploy.worker.Worker spark://192.168.174.129:7077
 ```
-
-# refer to 
+refer to 
 ```
-
 https://github.com/nodesense/cts-data-engineering-feb-2022/blob/main/notes/043-spark-cluster-ubuntu.md
 ```
