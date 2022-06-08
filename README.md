@@ -50,9 +50,11 @@ hive
 
 =======
 
-```
+# start spark cluster 
 ```
 
-schematool -initSchema -dbType mysql
+```
+# run worker 
+```
 
 ```
