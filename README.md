@@ -69,7 +69,7 @@ spark-class org.apache.spark.deploy.worker.Worker spark://10.0.0.164:7077
 open command prompt Run Worker 2 copy the master url and paste in below command
 
 ```
-spark-class org.apache.spark.deploy.worker.Worker spark://192.168.174.129:7077
+spark-class org.apache.spark.deploy.worker.Worker spark://10.0.0.164:7077
 ```
 refer to 
 ```
