@@ -57,7 +57,7 @@ Open command prompt, run cluster master aka cluster manager
 ```
 spark-class org.apache.spark.deploy.master.Master
 ```
-# run worker
+## run worker
 
 Now check, http://localhost:8080/ from ubuntu browser
 
