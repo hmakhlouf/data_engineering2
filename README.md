@@ -75,3 +75,29 @@ refer to
 ```
 https://github.com/nodesense/cts-data-engineering-feb-2022/blob/main/notes/043-spark-cluster-ubuntu.md
 ```
+
+
+# airflow  start
+
+
+```
+export AIRFLOW_HOME=~/airflow AIRFLOW_VERSION=2.2.4
+```
+
+```
+airflow standalone
+```
+
+open your browser 
+
+```
+http://localhost:8080/
+````
+
+refer to 
+
+```
+https://github.com/nodesense/cts-data-engineering-feb-2022/tree/main/airflow
+```
+
+
