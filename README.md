@@ -50,9 +50,54 @@ hive
 
 =======
 
+# start spark cluster 
+
+Open command prompt, run cluster master aka cluster manager
+
 ```
+spark-class org.apache.spark.deploy.master.Master
+```
+## run worker
+
+Now check, http://localhost:8080/ from ubuntu browser
+
+open command prompt Run Worker 1 copy the master url and paste in below command
+
+```
+spark-class org.apache.spark.deploy.worker.Worker spark://10.0.0.164:7077
+```
+open command prompt Run Worker 2 copy the master url and paste in below command
+
+```
+spark-class org.apache.spark.deploy.worker.Worker spark://10.0.0.164:7077
+```
+refer to 
+```
+https://github.com/nodesense/cts-data-engineering-feb-2022/blob/main/notes/043-spark-cluster-ubuntu.md
 ```
 
-schematool -initSchema -dbType mysql
+
+# airflow  start
+
 
 ```
+export AIRFLOW_HOME=~/airflow AIRFLOW_VERSION=2.2.4
+```
+
+```
+airflow standalone
+```
+
+open your browser 
+
+```
+http://localhost:8080/
+````
+
+refer to 
+
+```
+https://github.com/nodesense/cts-data-engineering-feb-2022/tree/main/airflow
+```
+
+
