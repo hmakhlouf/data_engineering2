@@ -59,7 +59,7 @@ spark-class org.apache.spark.deploy.master.Master
 ```
 ## run worker
 
-Now check, http://localhost:8080/ from ubuntu browser
+Now check, http://localhost:8080/ from the browser
 
 open command prompt Run Worker 1 copy the master url and paste in below command
 
